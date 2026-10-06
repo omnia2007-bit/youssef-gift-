@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>هدية ليوسف ❤️</title>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#ffdce8,#fff);font-family:Arial;color:#64283d}
+.box{width:85%;max-width:500px;background:white;padding:30px;border-radius:25px;text-align:center;box-shadow:0 10px 40px #0002}
+input,button{padding:14px;border-radius:14px;font-size:17px;margin:8px}
+input{border:1px solid #e5a5b8;text-align:center}
+button{border:0;background:#d94f78;color:white}
+#gift{display:none}.msg{text-align:right;line-height:2;white-space:pre-line}
+a{color:#d94f78;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="box">
+
+<div id="lock">
+<div style="font-size:55px">🎁</div>
+<h1>هدية صغيرة ليوسف ❤️</h1>
+<p>اكتب الباسورد عشان تفتح هديتك 🔐</p>
+<input id="pass" type="password" placeholder="الباسورد">
+<br>
+<button onclick="openGift()">افتح هديتك ✨</button>
+<p id="error"></p>
+</div>
+
+<div id="gift">
+<h1>إلى يوسف ❤️</h1>
+
+<div class="msg">
+يوسف ❤️
+
+مش عارفة أبدأ منين، بس عارفة إن في كلام كتير جوايا نفسي أقولهولك.
+
+وجودك في حياتي كان من الحاجات اللي خلت أيام كتير أحلى، وخلاني أحس إن في شخص أقدر أتكلم معاه وأحكيله اللي جوايا.
+
+يمكن مش بعرف أقول كل حاجة في وقتها، ويمكن الكلام ساعات بيقف مني، بس الحقيقة إن ليك مكانة كبيرة عندي.
+
+أنا بحب وجودك، وبحب الكلام معاك، وبحب كل لحظة حلوة جمعتنا.
+
+ومهما حصل ومهما الأيام أخدتنا فين، هفضل فاكرة الحاجات الحلوة اللي بينا، وهتفضل ذكريات غالية عندي.
+
+نفسي دايمًا أشوفك مبسوط ومرتاح، وتحقق كل اللي نفسك فيه، وتفضل بخير.
+
+يمكن الهدية دي بسيطة، بس هي معمولة من قلبي ليك.
+
+بحبك يا يوسف ❤️
+</div>
+
+<p>🎵</p>
+<a href="https://www.youtube.com/results?search_query=TUL8TE+%D8%A5%D9%86%D8%AA+%D8%AD%D8%A8%D9%8A%D8%A8%D9%8A" target="_blank">
+شغّل «إنت حبيبي» لـ TUL8TE ❤️
+</a>
+
+<h3>افتكر دايمًا إن في حد بيتمنى لك الخير من قلبه ❤️</h3>
+</div>
+
+</div>
+
+<script>
+function openGift(){
+if(document.getElementById("pass").value.toLowerCase()=="loev"){
+document.getElementById("lock").style.display="none";
+document.getElementById("gift").style.display="block";
+}else{
+document.getElementById("error").textContent="الباسورد غلط 😭";
+}
+}
+</script>
+</body>
+</html>
